@@ -1,0 +1,28 @@
+module rfs-common {
+
+  namespace "http://example.com/rfs-common";
+  prefix rfs-common;
+
+  import ietf-inet-types {
+    prefix inet;
+  }
+  import tailf-common {
+    prefix tailf;
+  }
+  import tailf-ncs {
+    prefix ncs;
+  }
+
+  description
+    "This is a dummy rfs package to demonstrate standarized services development environments";
+
+  revision 2023-01-08 {
+    description
+      "Demoing the good stuff";
+  }
+
+  container rfs {
+    container services {
+    }
+  }
+}
