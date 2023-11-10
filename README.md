@@ -10,6 +10,7 @@ This repository contains a very tailor-made exercise to showcase the benefits an
 
 The following are the files included in the repository:
 
+- ```nid_fundamentals.ipynb```: Notebook with a super brief introduction to the ```dev``` and ```base``` NSO image flavors.
 - ```nid_skeletons.ipynb```: Notebook with a brief tutorial regarding the usage of the ```ned```, ```package``` and ```system``` skeleton flavours. A fairly feasible approach for a bash-based CICD pipeline.
 
 This link redirects to the official repository where the project is maintained.
